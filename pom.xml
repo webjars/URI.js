@@ -52,6 +52,13 @@
         <upstream.version>1.12.0</upstream.version>
         <upstream.url>https://github.com/medialize/URI.js/archive/</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
+        <requirejs>
+            {
+                "paths": {
+                    "URI.js": "URI.js"
+                }
+            }
+        </requirejs>
     </properties>
 
     <build>
