@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>URI.js</artifactId>
-    <version>1.12.0-2-SNAPSHOT</version>
+    <version>1.12.0-2</version>
 
     <name>URI.js</name>
     <description>WebJar for URI.js</description>
@@ -42,7 +42,7 @@
         <url>http://github.com/webjars/URI.js</url>
         <connection>scm:git:https://github.com/webjars/URI.js.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/URI.js.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>URI.js-1.12.0-2</tag>
     </scm>
 
     <dependencies />
