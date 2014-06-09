@@ -54,7 +54,7 @@
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
             {
-                "paths": { "urijs": "URI.js" }
+                "paths": { "urijs": "URI" }
             }
         </requirejs>
     </properties>
