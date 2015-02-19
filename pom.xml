@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>URI.js</artifactId>
-    <version>1.12.0-3-SNAPSHOT</version>
+    <version>1.14.1-SNAPSHOT</version>
 
     <name>URI.js</name>
     <description>WebJar for URI.js</description>
@@ -49,7 +49,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.12.0</upstream.version>
+        <upstream.version>1.14.1</upstream.version>
         <upstream.url>https://github.com/medialize/URI.js/archive/</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
